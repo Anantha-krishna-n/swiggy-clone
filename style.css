@@ -1,0 +1,200 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0;
+ }
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+.item1{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.logo{
+    height: 60px;
+    width: auto;
+}
+.banner{
+    height: 603px;
+  max-width: 100%;
+}
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+   padding: 20px;
+    color: black;
+}
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+
+}
+h2{
+    color: #686b78;
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+
+}
+.locationinput{
+    width: 70%;
+    height: 26px;
+    color: beige;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px !important;
+    font-weight: 500;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 307px;
+    left: 470px;
+    padding: 15px;
+    color: black;
+}
+button:hover{
+    background-color:lightgray   
+}
+.findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 50px;
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform:uppercase ;
+}
+.citylist{
+    width:570px ;
+    list-style: none;
+    margin-top: 20px;
+    
+   
+}
+.list{
+    font-weight: 600;
+     font-size: 16px;
+     margin-right: 10px;
+     color: #686b78;
+     line-height: 1.5;
+     letter-spacing: -.3px;
+     text-decoration: none;
+}
+
+.list1{
+    font-weight: 600;
+     font-size: 16px;
+     margin-right: 10px;
+     color:lightgray;
+     line-height: 1.5;
+     letter-spacing: -.3px;
+     text-decoration: none;
+}
+.info-conatiner{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     background-color: #2b1e1e;
+     font-size: 16px;
+     font-weight: 500px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+.text-head{
+    color: white;
+    text-align: center;
+}
+.texts{
+    color: white;
+    text-align: center;
+}
+.foot-panel{
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    cursor: pointer;
+    font-weight: 300;
+}
+p{
+    color: #a9abb2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.foot-panel3{
+    background-color: black;
+    color: white;
+    height: 100px;
+    border-top: 1px solid white;
+    padding-top: 15px;
+}
+.logo3{
+    
+
+    background-image: url("logo4.png"); 
+    background-size: cover;
+  height: 60px;
+  width: 200px;
+    padding top: 15px;
+    padding bottom:5px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
